@@ -122,6 +122,17 @@
   footer p{font-size:12px;color:var(--ink-soft);line-height:1.65;margin:0 0 4px}
   footer a{color:var(--gold-light);text-decoration:none;font-weight:700}
 
+  .placa-endereco{
+    display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;
+    width:112px;height:112px;margin:16px auto 18px;
+    background:var(--gold-light);color:#1a1205;
+    border-radius:8px;border:1px solid var(--gold-deep);
+    box-shadow:0 10px 24px rgba(0,0,0,.4);
+    transform:rotate(-2deg);
+  }
+  .placa-endereco .linha1{font-size:9.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;opacity:.75}
+  .placa-endereco .linha2{font-family:'Cormorant Garamond',serif;font-weight:700;font-size:17px;line-height:1.15}
+
   .cta-bar{
     position:fixed;left:0;right:0;bottom:0;display:flex;justify-content:center;
     padding:14px 20px calc(14px + env(safe-area-inset-bottom));
@@ -270,13 +281,19 @@
   <footer>
     <div class="nome">Salão Spa da Beleza</div>
     <p>Próteses Capilares, Perucas e Laces · Josy Torres</p>
-    <p>Av. Dr. José Sampaio Luz, 236 — Ponta Verde, Maceió/AL</p>
+    <p>Av. Luiz Ramalho de Castro, 1323, Loja 2 — Jatiúca, Maceió/AL</p>
+
+    <div class="placa-endereco">
+      <span class="linha1">Em breve</span>
+      <span class="linha2">Novo<br>endereço</span>
+    </div>
+
     <p>Terça a Sábado, 08h30 às 18h</p>
     <p><a href="https://www.instagram.com/salao.spadabeleza/" target="_blank" rel="noopener">@salao.spadabeleza</a></p>
     <div class="map-wrap">
-      <iframe src="https://www.google.com/maps?q=Av.+Dr.+Jos%C3%A9+Sampaio+Luz,+236,+Ponta+Verde,+Macei%C3%B3+-+AL&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Localização do Salão Spa da Beleza"></iframe>
+      <iframe src="https://www.google.com/maps?q=Av.+Luiz+Ramalho+de+Castro,+1323,+Jati%C3%BAca,+Macei%C3%B3+-+AL&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Localização do Salão Spa da Beleza"></iframe>
     </div>
-    <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Av.+Dr.+Jos%C3%A9+Sampaio+Luz,+236,+Ponta+Verde,+Macei%C3%B3+-+AL" target="_blank" rel="noopener">Ver localização no mapa →</a>
+    <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Av.+Luiz+Ramalho+de+Castro,+1323,+Jati%C3%BAca,+Macei%C3%B3+-+AL" target="_blank" rel="noopener">Ver localização no mapa →</a>
   </footer>
 </div>
 
